@@ -57,7 +57,7 @@
 <body>
 <main>
   <h1>Synciva Privacy Policy</h1>
-  <p class="muted">Last updated: 10 October 2026</p>
+  <p class="muted">Last updated: 18 November 2026</p>
 
   <p>Synciva is a mobile app that helps sports clubs organise their members, teams and events. This policy explains what
     personal information Synciva collects when you use the app, why, who can see it, how long it's kept, and the rights
@@ -70,6 +70,8 @@
       <li>Your details are visible to your club's captains and administrators, as described below, and to no one else.</li>
       <li>The app has no adverts and no analytics or tracking tools, and we never sell your information.</li>
       <li>Your information is stored on Microsoft Azure servers in the United Kingdom.</li>
+      <li>If you turn on notifications, they're delivered through Expo, Apple and Google, and you can turn them off at
+        any time.</li>
       <li>You can delete your account in the app at any time, and ask to see, correct or delete your information by
         emailing <a href="mailto:synciva@gmail.com">synciva@gmail.com</a>.</li>
     </ul>
@@ -122,6 +124,14 @@
         <td>So your captain can see who is available</td>
       </tr>
       <tr>
+        <td>Notifications: a push notification token for your phone (a random code that lets us send notifications to
+          that phone), the type of phone (iPhone or Android), and your notification settings</td>
+        <td>Your phone, if you turn on notifications (including &ldquo;Tell me when I'm approved&rdquo; when you create
+          an account), and you, in your notification settings</td>
+        <td>To send you the notifications you've chosen, for example new or changed events, reminders to reply, and
+          when your account is approved</td>
+      </tr>
+      <tr>
         <td>Technical information: IP address, device and app details, the requests the app makes, and error details</td>
         <td>Automatically, when the app talks to our servers</td>
         <td>To keep the service secure and reliable, and to find and fix problems</td>
@@ -132,7 +142,19 @@
 
   <h3>Information stored on your device</h3>
   <p>To keep you signed in, the app stores sign-in tokens in your phone's secure storage (the iOS Keychain or Android
-    Keystore). It also remembers which club you selected. Logging out removes the sign-in tokens from your device.</p>
+    Keystore). It also remembers which club you selected, and, if you've turned on notifications, the push
+    notification token it has registered. Logging out removes the sign-in tokens and the push notification token
+    from your device, and stops notifications to it.</p>
+
+  <h3>Notifications</h3>
+  <p>Notifications are off until you allow them on your phone. They tell you about things in your club, such as a new,
+    changed or cancelled event for your team, a reminder to reply, being added to a team, or your account being
+    approved. Club administrators are also told when new registrations are waiting for approval (as a number only).
+    A notification contains the event's title, date, time and location, or your team's or club's name. It never
+    contains anyone's email address, phone number, date of birth or availability notes, or other members' names.</p>
+  <p>Notifications can appear on your lock screen. You can hide their content there in your phone's settings, choose
+    which notifications you get in the app under <strong>Profile &rarr; Notifications</strong>, or turn them off
+    completely in your phone's settings.</p>
 
   <h2>Who can see your information</h2>
   <ul>
@@ -144,6 +166,12 @@
     <li><strong>Service providers:</strong> Microsoft Azure hosts our servers, database and error logs in the United
       Kingdom, and processes information only on our instructions. The app is distributed through the Google Play Store
       and the Apple App Store, which have their own privacy policies for their stores.</li>
+    <li><strong>Notification services:</strong> if you turn on notifications, your phone's push notification token and
+      each notification's text are passed to Expo (650 Industries, Inc.), which delivers them through Apple's Push
+      Notification service (iPhone) or Google's Firebase Cloud Messaging (Android). They use this information only to
+      deliver notifications. These providers are based in the United States, so this information is transferred
+      outside the UK, with the safeguards UK law requires (such as the UK International Data Transfer Agreement or
+      Addendum).</li>
     <li><strong>Where the law requires it:</strong> we'll only share information with authorities if we are legally
       required to.</li>
   </ul>
@@ -152,7 +180,7 @@
   <h2>Our legal reasons for using your information</h2>
   <ul>
     <li><strong>To provide the service you've signed up for</strong> (contract): creating your account, checking your
-      membership, and showing your teams, events and availability.</li>
+      membership, showing your teams, events and availability, and sending the notifications you've turned on.</li>
     <li><strong>Our legitimate interests</strong>: keeping the service secure, preventing misuse, and fixing problems,
       and helping your club run its membership.</li>
     <li><strong>Legal obligations</strong>: where the law requires us to keep or share information.</li>
@@ -165,6 +193,10 @@
       by law.</li>
     <li><strong>If your registration isn't approved</strong>, or you leave your club, your account is kept without
       access to the club, so the club's records stay accurate. You can ask us to delete it at any time.</li>
+    <li><strong>Push notification tokens</strong> are deleted when you log out, turn notifications off, change club or
+      delete your account, and automatically if a phone hasn't been used with Synciva for 60 days. Your notification
+      settings are kept with your account. Expo, Apple and Google keep delivery records only as their own privacy
+      policies describe.</li>
     <li><strong>Technical logs</strong> are deleted automatically after 90 days.</li>
     <li><strong>Your club's member list</strong> is kept for as long as your club uses Synciva, or until your club
       removes you from it.</li>
